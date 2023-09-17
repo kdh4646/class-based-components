@@ -12,10 +12,18 @@ const DUMMY_USERS = [
 //class base component
 class UserFinder extends Component {
   constructor() {
+    super();
     this.state = {
       filteredUsers: [],
       searchTerm: "",
     };
+  }
+
+  //execute once
+  componentDidMount() {
+    //1. Send Http Request...
+    //2. setState
+    this.setState({ filteredUsers: DUMMY_USERS });
   }
 
   //replace useEffect()
