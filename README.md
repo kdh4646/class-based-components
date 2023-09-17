@@ -2,8 +2,6 @@
 > [!NOTE]
 > Reference : Code snapshots and materials for our "React - The Complete Guide" course (https://acad.link/reactjs)
 
-# 🚧 In progres.. 🚧
-
 # 📖 Introduction
 - Implement a simple React page for
 1. Learning Class based components
