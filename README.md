@@ -5,12 +5,11 @@
 # 🚧 In progres.. 🚧
 
 # 📖 Introduction
-<!--
-- Implement a food order page
-1. Manage State by implementing various hooks `useReducer()`, `useState()`, `useRef()`, `useEffect()`, `useContext()`
-2. Adding bump animation to the cart button.
-3. User can add/remove items from the menu/cart. -->
+- Implement a simple React page for
+1. Learning Class based components
+2. Using `componentDidUpdate()`, `componentDidMount()`, `componentDidCatch()`, `React.Component`
+3. Control errors which only supported with Class based components
 
 # 👀 Screenshots
-<!--
-![image](https://github.com/kdh4646/the-food-order-app/assets/71913953/f2b331ac-d1e8-46f0-8f6b-0966669270ae) -->
+![image](https://github.com/kdh4646/class-based-components/assets/71913953/59ffe86c-e5ab-4135-9626-741a48bf9b3c)
+
