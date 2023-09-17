@@ -1,7 +1,18 @@
-import classes from './User.module.css';
+import { Component } from "react";
 
-const User = (props) => {
-  return <li className={classes.user}>{props.name}</li>;
-};
+import classes from "./User.module.css";
+
+//class-base component
+class User extends Component {
+  //specific method for React
+  render() {
+    return <li className={classes.user}>{this.props.name}</li>;
+  }
+}
+
+//function base
+// const User = (props) => {
+//   return <li className={classes.user}>{this.props.name}</li>;
+// };
 
 export default User;
